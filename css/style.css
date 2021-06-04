@@ -13,30 +13,58 @@
 
 body{
     font-family: whitney, Arial, Helvetica, sans-serif;
-    text-transform: capitalize;
+    font-weight: bold;
 }
 
 header{
     color: white;
-    background-color:#3161E0;
+    background-color:#255ee9;
 }
 
 header .topbar{
     height: 80px;
     line-height:80px;   
+    text-transform: capitalize;
 }
 
-header .jumbotrom{
-    height: 500px;
+header #jumbotrom{
+    height: 520px;
 
+}
+
+#jumbotrom{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+  
+}
+
+
+#jumbotrom .container .btn a ,
+.btn ,.topbar .top-menu a {  
+                                       
+        text-decoration: none; 
+}
+
+
+
+#jumbotrom .container.text-center,
+#jumbotrom .container.text-center .text-small{
+    margin: 40px auto;
+    width: 800px;
     
+
 }
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    
-    
+
+}
+
+
+.row{
+    display: inline-block;
 }
 
 .col{
@@ -78,17 +106,19 @@ header .jumbotrom{
 
 .topbar .top-menu a{
     color: white;
-    text-decoration: none;
 
 }
 
 .topbar .top-menu a:hover{
     text-decoration: underline;
 }
+a { 
+    color: inherit; 
+} 
 
 .btn{ 
     border-radius: 18px;
-    text-decoration: none;
+   
 }
 
 .btn.btn-white{
@@ -96,8 +126,29 @@ header .jumbotrom{
     color: black;
 }
 
+
+.btn.btn-black{
+    background-color: black;
+    color: white;
+}
 .btn.btn-small{
     font-size: 12px;
     padding: 8px 10px;
 
+}
+
+.btn.btn-big{
+    font-size: 16px;
+    padding: 10px 14px;
+    margin: 0 10px;
+}
+
+ 
+.text-big{
+     font-size: 60px;
+ 
+ }
+
+ .text-small{
+    font-size: 24px;
 }
