@@ -27,9 +27,14 @@ header .topbar{
     text-transform: capitalize;
 }
 
-header #jumbotrom{
+header #jumbotrom ,
+section .study-group{
     height: 520px;
 
+}
+
+p{
+    margin: auto 0;
 }
 
 #jumbotrom{
@@ -62,6 +67,9 @@ header #jumbotrom{
 
 }
 
+.container .study-group{
+  margin: 50px auto;
+}
 
 .row{
     display: inline-block;
@@ -78,14 +86,16 @@ header #jumbotrom{
 .col.w-60{
     width: 60%;
 }
-
-.col.w-50{
-    width: 50%;
+.col.w-30{
+    width: 30%;
 }
+
 
 .text-center{
     text-align: center;
 }
+
+
 
 .text-right{
     text-align: right;
@@ -146,9 +156,13 @@ a {
  
 .text-big{
      font-size: 60px;
+     
  
  }
 
  .text-small{
     font-size: 24px;
 }
+
+
+  
