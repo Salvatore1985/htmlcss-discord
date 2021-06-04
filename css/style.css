@@ -1,0 +1,103 @@
+/* Utils */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+body{
+    font-family: whitney, Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+header{
+    color: white;
+    background-color:#3161E0;
+}
+
+header .topbar{
+    height: 80px;
+    line-height:80px;   
+}
+
+header .jumbotrom{
+    height: 500px;
+
+    
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+
+.col{
+    float: left;
+}
+
+.col.w-20{
+    width: 20%;
+}
+
+.col.w-60{
+    width: 60%;
+}
+
+.col.w-50{
+    width: 50%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+.topbar .top-menu li {
+    margin: 0 20px;
+}
+
+.topbar .top-menu,
+.topbar .top-menu li   {
+    display: inline-block;
+}
+
+.topbar .top-menu a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.topbar .top-menu a:hover{
+    text-decoration: underline;
+}
+
+.btn{ 
+    border-radius: 18px;
+    text-decoration: none;
+}
+
+.btn.btn-white{
+    background-color: white;
+    color: black;
+}
+
+.btn.btn-small{
+    font-size: 12px;
+    padding: 8px 10px;
+
+}
